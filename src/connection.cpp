@@ -26,6 +26,10 @@
 #include "scheduler.h"
 #include "server.h"
 
+// Define static constexpr members for C++11 compatibility
+constexpr int32_t Connection::write_timeout;
+constexpr int32_t Connection::read_timeout;
+
 extern ConfigManager g_config;
 
 Connection_ptr ConnectionManager::createConnection(boost::asio::io_service& io_service, ConstServicePort_ptr servicePort)
