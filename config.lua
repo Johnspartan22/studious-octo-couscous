@@ -28,9 +28,9 @@ replaceKickOnLogin = true
 maxPacketsPerSecond = 25
 
 -- Version Manual
-clientVersionMin = 770
+clientVersionMin = 772
 clientVersionMax = 772
-clientVersionStr = "Only clients with protocol 7.70/72 allowed!"
+clientVersionStr = "Only clients with protocol 7.6 allowed!"
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
@@ -53,10 +53,10 @@ mapName = "map"
 mapAuthor = "Mattyx14"
 
 -- MySQL
-mysqlHost = "127.0.0.1"
-mysqlUser = ""
-mysqlPass = ""
-mysqlDatabase = ""
+mysqlHost = "13.59.237.201"
+mysqlUser = "otserv"
+mysqlPass = "otserv"
+mysqlDatabase = "otserv"
 mysqlPort = 3306
 mysqlSock = ""
 
